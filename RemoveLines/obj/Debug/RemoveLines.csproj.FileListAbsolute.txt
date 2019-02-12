@@ -1,0 +1,9 @@
+c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\bin\Debug\RemoveLines.exe.config
+c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\bin\Debug\RemoveLines.exe
+c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\bin\Debug\RemoveLines.pdb
+c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csprojResolveAssemblyReference.cache
+c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\obj\Debug\RemoveLines.Form1.resources
+c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\obj\Debug\RemoveLines.Properties.Resources.resources
+c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csproj.GenerateResource.Cache
+c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\obj\Debug\RemoveLines.exe
+c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\obj\Debug\RemoveLines.pdb
