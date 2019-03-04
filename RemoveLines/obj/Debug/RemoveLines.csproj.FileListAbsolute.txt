@@ -7,3 +7,13 @@ c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\obj
 c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csproj.GenerateResource.Cache
 c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\obj\Debug\RemoveLines.exe
 c:\users\anton\documents\visual studio 2015\Projects\RemoveLines\RemoveLines\obj\Debug\RemoveLines.pdb
+C:\Users\anton\RemoveLines\RemoveLines\bin\Debug\RemoveLines.exe.config
+C:\Users\anton\RemoveLines\RemoveLines\bin\Debug\RemoveLines.exe
+C:\Users\anton\RemoveLines\RemoveLines\bin\Debug\RemoveLines.pdb
+C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csprojAssemblyReference.cache
+C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.Form1.resources
+C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.Properties.Resources.resources
+C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csproj.GenerateResource.cache
+C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csproj.CoreCompileInputs.cache
+C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.exe
+C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.pdb
