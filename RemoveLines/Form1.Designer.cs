@@ -82,7 +82,6 @@
             this.addGitBox.TabIndex = 2;
             this.addGitBox.Text = "Add \"git add \"";
             this.addGitBox.UseVisualStyleBackColor = true;
-            this.addGitBox.CheckedChanged += new System.EventHandler(this.addGitBox_CheckedChanged);
             // 
             // rmvModBox
             // 
@@ -93,7 +92,6 @@
             this.rmvModBox.TabIndex = 3;
             this.rmvModBox.Text = "Remove \"modified:\"";
             this.rmvModBox.UseVisualStyleBackColor = true;
-            this.rmvModBox.CheckedChanged += new System.EventHandler(this.rmvModBox_CheckedChanged);
             // 
             // rmvDelBox
             // 
@@ -104,7 +102,6 @@
             this.rmvDelBox.TabIndex = 4;
             this.rmvDelBox.Text = "Remove \"deleted:\"";
             this.rmvDelBox.UseVisualStyleBackColor = true;
-            this.rmvDelBox.CheckedChanged += new System.EventHandler(this.rmvDelBox_CheckedChanged);
             // 
             // rmvLinebreakBox
             // 
@@ -115,7 +112,6 @@
             this.rmvLinebreakBox.TabIndex = 5;
             this.rmvLinebreakBox.Text = "Remove linebreak";
             this.rmvLinebreakBox.UseVisualStyleBackColor = true;
-            this.rmvLinebreakBox.CheckedChanged += new System.EventHandler(this.rmvLinebreakBox_CheckedChanged);
             // 
             // Form1
             // 

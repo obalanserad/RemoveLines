@@ -13,11 +13,6 @@ namespace RemoveLines
 {
     public partial class Form1 : Form
     {
-        string oldText;
-        string newText;
-        string addGit;
-        bool removeLinebreak;
-        string[] options= new string[2];
 
         public Form1()
         {
@@ -25,14 +20,6 @@ namespace RemoveLines
             btnCopy.Text = "Copy";
             btnRemove.Text = "Remove";
             CreateContextMenu();
-            oldText = string.Empty;
-            newText = string.Empty;
-            addGit = string.Empty;
-            options[0] = string.Empty;
-            options[1] = string.Empty;
-            //options[2] = string.Empty;
-            removeLinebreak = false;
-
         }
 
 
@@ -57,7 +44,6 @@ namespace RemoveLines
             txtBoxIn.ContextMenu = contextMenu;
         }
 
-        //NOT IN USE ATM
         private string NewLine(string input)
         {
             if (input.Contains(Environment.NewLine))
@@ -69,23 +55,37 @@ namespace RemoveLines
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            oldText = txtBoxIn.Text;
+            string addGit = string.Empty;
+            string originalText = txtBoxIn.Text;
+            string[] options = new string[2];
+            options[0] = string.Empty;
+            options[1] = string.Empty;
+
+            if (rmvModBox.Checked)
+                options[0] = "modified:";
+            if (rmvDelBox.Checked)
+                options[1] = "deleted:";
+
+            string text = txtBoxIn.Text;
             List<string> newWords = new List<string>();
 
-            string[] words = oldText.Split(' ');
+            string[] words = text.Split(' ');
             foreach (string word in words)
             {
                 if(!options.Contains(word) && !string.IsNullOrEmpty(word))
                 {
-                    if(removeLinebreak == true)
+                    if(rmvLinebreakBox.Checked)
                         newWords.Add(NewLine(word).Trim());
                     else
                         newWords.Add(word.Trim());
                 }
             }
-
-            newText = string.Join(" ", newWords.ToArray());
-            txtBoxIn.Text = addGit + newText.TrimStart();
+            if(addGitBox.Checked)
+            {
+                addGit = "git add ";
+            }
+            text = string.Join(" ", newWords.ToArray());
+            txtBoxIn.Text = addGit + text.TrimStart();
 
         }
 
@@ -116,26 +116,6 @@ namespace RemoveLines
             {
                 txtBoxIn.Text = Clipboard.GetText();
             }
-        }
-
-        private void addGitBox_CheckedChanged(object sender, EventArgs e)
-        {
-            addGit = "git add ";
-        }
-
-        private void rmvModBox_CheckedChanged(object sender, EventArgs e)
-        {
-            options[0] = "modified:";
-        }
-
-        private void rmvDelBox_CheckedChanged(object sender, EventArgs e)
-        {
-            options[1] = "deleted:";
-        }
-
-        private void rmvLinebreakBox_CheckedChanged(object sender, EventArgs e)
-        {
-            removeLinebreak = true;
         }
     }
 }
