@@ -17,3 +17,13 @@ C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csproj.GenerateReso
 C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csproj.CoreCompileInputs.cache
 C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.exe
 C:\Users\anton\RemoveLines\RemoveLines\obj\Debug\RemoveLines.pdb
+C:\Users\AntonHellberg\source\RemoveLines\RemoveLines\bin\Debug\RemoveLines.exe.config
+C:\Users\AntonHellberg\source\RemoveLines\RemoveLines\bin\Debug\RemoveLines.exe
+C:\Users\AntonHellberg\source\RemoveLines\RemoveLines\bin\Debug\RemoveLines.pdb
+C:\Users\AntonHellberg\source\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csprojAssemblyReference.cache
+C:\Users\AntonHellberg\source\RemoveLines\RemoveLines\obj\Debug\RemoveLines.Form1.resources
+C:\Users\AntonHellberg\source\RemoveLines\RemoveLines\obj\Debug\RemoveLines.Properties.Resources.resources
+C:\Users\AntonHellberg\source\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csproj.GenerateResource.cache
+C:\Users\AntonHellberg\source\RemoveLines\RemoveLines\obj\Debug\RemoveLines.csproj.CoreCompileInputs.cache
+C:\Users\AntonHellberg\source\RemoveLines\RemoveLines\obj\Debug\RemoveLines.exe
+C:\Users\AntonHellberg\source\RemoveLines\RemoveLines\obj\Debug\RemoveLines.pdb

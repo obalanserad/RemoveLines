@@ -35,6 +35,7 @@
             this.rmvModBox = new System.Windows.Forms.CheckBox();
             this.rmvDelBox = new System.Windows.Forms.CheckBox();
             this.rmvLinebreakBox = new System.Windows.Forms.CheckBox();
+            this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBoxIn
@@ -53,7 +54,7 @@
             // btnRemove
             // 
             this.btnRemove.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemove.Location = new System.Drawing.Point(182, 240);
+            this.btnRemove.Location = new System.Drawing.Point(102, 238);
             this.btnRemove.Margin = new System.Windows.Forms.Padding(2);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(75, 30);
@@ -65,7 +66,7 @@
             // btnCopy
             // 
             this.btnCopy.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCopy.Location = new System.Drawing.Point(261, 240);
+            this.btnCopy.Location = new System.Drawing.Point(181, 238);
             this.btnCopy.Margin = new System.Windows.Forms.Padding(2);
             this.btnCopy.Name = "btnCopy";
             this.btnCopy.Size = new System.Drawing.Size(75, 30);
@@ -113,6 +114,15 @@
             this.rmvLinebreakBox.Text = "Remove linebreak";
             this.rmvLinebreakBox.UseVisualStyleBackColor = true;
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(261, 237);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 30);
+            this.btnClear.TabIndex = 6;
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.BtnClear_Click);
+            // 
             // Form1
             // 
             this.AllowDrop = true;
@@ -120,6 +130,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(471, 279);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.rmvLinebreakBox);
             this.Controls.Add(this.rmvDelBox);
             this.Controls.Add(this.rmvModBox);
@@ -145,6 +156,7 @@
         private System.Windows.Forms.CheckBox rmvModBox;
         private System.Windows.Forms.CheckBox rmvDelBox;
         private System.Windows.Forms.CheckBox rmvLinebreakBox;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 

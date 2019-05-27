@@ -19,6 +19,7 @@ namespace RemoveLines
             InitializeComponent();
             btnCopy.Text = "Copy";
             btnRemove.Text = "Remove";
+            btnClear.Text = "Clear";
             CreateContextMenu();
         }
 
@@ -80,8 +81,10 @@ namespace RemoveLines
                         newWords.Add(word.Trim());
                 }
             }
-            if(addGitBox.Checked)
+
+            if(addGitBox.Checked && !words.Contains("git"))
             {
+
                 addGit = "git add ";
             }
             text = string.Join(" ", newWords.ToArray());
@@ -116,6 +119,11 @@ namespace RemoveLines
             {
                 txtBoxIn.Text = Clipboard.GetText();
             }
+        }
+
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+            txtBoxIn.Text = txtBoxIn.Text.Replace(txtBoxIn.Text, String.Empty);
         }
     }
 }
