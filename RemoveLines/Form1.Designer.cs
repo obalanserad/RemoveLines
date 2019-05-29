@@ -54,7 +54,7 @@
             // btnRemove
             // 
             this.btnRemove.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemove.Location = new System.Drawing.Point(102, 238);
+            this.btnRemove.Location = new System.Drawing.Point(101, 238);
             this.btnRemove.Margin = new System.Windows.Forms.Padding(2);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(75, 30);
@@ -116,7 +116,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(261, 237);
+            this.btnClear.Location = new System.Drawing.Point(261, 238);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 30);
             this.btnClear.TabIndex = 6;
